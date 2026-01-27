@@ -16,7 +16,7 @@ export const DetailArticle = () => {
 
     <div className="max-w-3xl mx-auto p-10">
       
-    {/* name and username  */}
+    {/* article author  */}
       <div className="mb-4 text-sm text-gray-600">
         <span className="font-medium">{article.name}</span>{" "}
         <span className="text-gray-400">{article.username}</span>

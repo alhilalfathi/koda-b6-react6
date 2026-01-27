@@ -9,10 +9,16 @@ import { AiOutlinePlus } from "react-icons/ai";
 import jsonData from "../../public/article.json"
 import { Link } from "react-router-dom";
 import { CgProfile } from "react-icons/cg";
-
+import { useEffect, useState } from "react";
 
 export const Home = () => {
+    const [articles, setArticles] = useState([]);
 
+    useEffect(() => {
+        const localArticle = JSON.parse(localStorage.getItem("articleData")) || [];
+
+        setArticles([...localArticle, ...jsonData]);
+    }, []);
     
   return (
     <div>
@@ -60,29 +66,32 @@ export const Home = () => {
 
             {/* article  */}
             <article className="flex-1 p-10 space-y-8">
-                {jsonData.map((article) => (
+                {articles.map((article) => (
 
+                    // article wrap 
                     <div key={article.id} className="border-b pb-6 grid-cols-4">
-                        
-                        <div >
+
+                            {/* article author */}
                             <div className="mb-2 text-sm text-gray-600 flex gap-2 items-center">
                                 <CgProfile className="w-8 h-8" />
                                 <span className="font-medium">{article.name}</span>
                                 <span className="text-gray-400">{article.username}</span>
                             </div>
+
+                            {/* article title  */}
                             <Link to={`/${article.username}/${article.slug}`}>
                                 <h2 className="text-2xl font-bold mb-3 hover:underline cursor-pointer">
                                 {article.title}
                                 </h2>
                             </Link>
+
+                            {/* article body and image */}
                             <div className="flex gap-3">
                                 <p className="text-gray-700 line-clamp-3">
                                     {article.body}
                                 </p>
                                 <img className="w-72 h-36" src={article.image} alt={article.title} />
                             </div>
-                        </div>
-
                     </div>
                 ))}
             </article>

@@ -70,7 +70,7 @@ export const Home = () => {
                                 <span className="font-medium">{article.name}</span>
                                 <span className="text-gray-400">{article.username}</span>
                             </div>
-                            <Link to={`/${article.username}/${article.title}`}>
+                            <Link to={`/${article.username}/${article.slug}`}>
                                 <h2 className="text-2xl font-bold mb-3 hover:underline cursor-pointer">
                                 {article.title}
                                 </h2>

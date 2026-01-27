@@ -3,11 +3,13 @@ import { useParams } from "react-router-dom";
 
 export const DetailArticle = () => {
 
-    const { username } = useParams()
+    const { username, slug } = useParams()
+    const localArticle = JSON.parse(localStorage.getItem("articleData")) || []
+    const allArticle = [...localArticle,...jsonData]
 
-  const article = jsonData.find(
-    (item) => item.username === username
-  )
+    const article = allArticle.find(
+        (item) => item.username === username && item.slug === slug
+    )
 
   if (!article) {
     return <p className="p-10">Article not found</p>

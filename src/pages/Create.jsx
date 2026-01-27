@@ -14,7 +14,7 @@ export const Create = () => {
         body: value.body,
         name: "Hilal",               
         username: "@hils",
-        image: "https://placehold.co/350x200"
+        image: value.image
         }
 
         const updatedArticle = [...oldArticle, newArticle]
@@ -35,6 +35,10 @@ export const Create = () => {
             <div className="flex flex-col gap-3 px-10 py-5">
                 <label htmlFor="slug" className="text-2xl font-bold">Slug:</label>
                 <input {...register("slug")} type="text" id="slug" placeholder="Input Slug" className="bg-white p-5" />
+            </div>
+            <div className="flex flex-col gap-3 px-10 py-5">
+                <label htmlFor="image" className="text-2xl font-bold">Image url:</label>
+                <input {...register("image")} type="text" id="image" placeholder="Input url" className="bg-white p-5" />
             </div>
             <div className="flex flex-col gap-3 px-10 py-5">
                 <label htmlFor="body" className="text-2xl font-bold">Article body:</label>

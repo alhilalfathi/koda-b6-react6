@@ -5,6 +5,7 @@
         "username": "@barackobama" ,
         "name":  "Barack Obama",
         "title": "A Wake-Up Call for Every American",
+        "slug": "A-Wake-Up-Call-for-Every-American",
         "body": "The killing of Alex Pretti is a heartbreaking tragedy. It should also be a wake-up call to every American, regardless of party, that many of our core values as a nation are increasingly under assault. Federal law enforcement and immigration agents have a tough job. But Americans expect them to carry out their duties in a lawful, accountable way, and to work with, rather than against, state and local officials to ensure public safety."
     },
     {
@@ -13,6 +14,7 @@
         "username": "@nifmuhammad" ,
         "name":  "Hanif Abdurraqib",
         "title": "115 Favorite Albums Of 2025 (This Time, With A Short Essay About Brian Wilson.)",
+        "slug": "115-Favorite-Albums-Of-2025-(This-Time,-With-A-Short-Essay-About-Brian-Wilson.)",
         "body": "Hello, and welcome back. If you’ve been here before, over the years, you know that — at least in recent years — this is where I break down the math of my yearly listening. How many albums I had in front of me, of those albums, how many I got through and how many I realized weren’t for me about halfway through, the weekly average of albums I set out to listen to, so on and so on. I’m not going to do that this year, for a few reasons. One reasons is that I actually don’t think the math is that interesting or important. If you are here, you are at least somewhat aware that I listen to a lot of new music. Far more than the average person. That did not change this year. I also think that the numbers can often baffle or bewilder people to the point of creating some skepticism around the list itself. For me, and for the way I organize my life, listening to the amount of new music I listen to isn’t really that spectacular or challenging at all, but it’s also worth saying that I have privileges that open my life up to that ability. I have no kids, I am not the primary caretaker for anyone, my time is not entirely my own, but the shape of my time is my own, when and where I place things. All of that leads to a lifestyle, for now at least, where it’s simple to lend my ears and attention to new music at a fairly high rate. But the other reason I’m going to skip the math this year is because, frankly, I think it painted a bleak picture. You’ll notice the number of albums is lower than last year by a not overwhelmingly significant amount, but I actually had more albums in front of me than ever (by a somewhat significant amount) and so what the math is telling me is that the quality vs. quantity concerns that I’ve expressed anxiety about in past years have finally started to come to a head, and we’re seeing more albums flood the world, but in some cases, seemingly less care with how the albums are made, or what they sound like."
     },
     {
@@ -21,6 +23,7 @@
         "username": "@punitweb" ,
         "name":  "Punit Chawla",
         "title": "UX Design Is Rapidly Changing — Can You Keep Up?",
+        "slug": "UX-Design-Is-Rapidly-Changing—Can-You-Keep-Up?",
         "body":"UX design is a profession that was introduced to help companies solve problems creatively. However, it has taken an all-new avatar in the past 2 years. It is frightening and exciting at the same time! Through this article, I wish to clear out some of the fog and be your industry insider. We’ve all noticed shifts in where UX designers are starting their careers. Earlier this meant teaching yourself design from YouTube and articles listed on Google. This journey was made even easier with short and cheap courses online. However, as is with any other career path, competition creates new ways to do things. As more people wanted to become designers, it became clear that things needed to change. People found solace in UX bootcamps and institutes. It wasn’t long before colleges followed suit and brought diplomas and degrees into the mix. However, this wasn’t enough. Fast-forward to 2024, regardless of all the shortcuts or solutions, UX design has been hard to digest lately. Even though UX designers are changing and becoming better, the industry has grown to expect different things. So, the new generation ends up being surprised when their skills don’t match up with what recruiters are looking for."
     },
     {
@@ -29,6 +32,7 @@
         "username": "@verylazytech" ,
         "name":  "Very Lazy Tech",
         "title": "15+ Linux Environment Variables Hackers Use (You Should Too!)",
+        "slug": "15+-Linux-Environment-Variables-Hackers-Use-(You-Should-Too!)",
         "body": "Introduction to Linux Environment Variables, In a Linux operating system, environment variables are dynamic values that define the behavior of system processes and applications. These variables store configuration data, such as the system path, user preferences, and settings, making them essential for efficient system operations and automation. "
     },
     {
@@ -37,6 +41,7 @@
         "username": "@codecoup" ,
         "name":  "CodeCoup",
         "title": "Clawdbot: The AI That Knows You Too Well",
+        "slug": "Clawdbot:-The-AI-That-Knows-You-Too-Well",
         "body": "I installed Clawdbot for productivity. What I found looks a lot like the next addiction curve of modern life. I installed Clawdbot yesterday. That’s the kind of sentence you say casually, like “I updated my phone” or “I tried a new app.” It doesn’t sound like the beginning of a three-year existential problem. But I think it is. Here’s what actually happened: I bought a Mac mini. Spent $5 on a server. Ran one command line. Waited ten minutes. And suddenly, I had an AI assistant living in my WhatsApp, remembering everything I say, messaging me first when mething matters, and actually doing things on my computer. Send emails. Move files. Fill forms. Run ripts.Control my browser. It felt like cheating at life. And I get why people are losing their minds over it. Twitter (sorry, X) is full of testimonials that read like religious conversions."
     }
 ]

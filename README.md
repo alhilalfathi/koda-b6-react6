@@ -1,16 +1,10 @@
-# React + Vite
+# Medium Apps kw
+aplikasi ini adalah portal berita yang berisikan berbagai macam artikel, web ini memiliki fitur upload srtikel sehingga pengguna bisa mengupload artikelnya sendiri. Web app ini dibuat menggunakan react dan didesain menggunakan tailwind.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Cara menggunakan
+1. download semua file di repo ini
+2. buka terminal
+3. ketikan npm run def
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![screenshot](./src/assets/img/1.png)
+![screenshot](./src/assets/img/2.png)
